@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DESKTOP\\Workspace\\ASP.Net_Entity\\ASPNetCoreApp\\ASPNetCoreApp.csproj": {}
+    "E:\\WorkSpace\\ASP.Net_Entity\\ASPNetCoreApp\\ASPNetCoreApp.csproj": {}
   },
   "projects": {
-    "D:\\DESKTOP\\Workspace\\ASP.Net_Entity\\ASPNetCoreApp\\ASPNetCoreApp.csproj": {
+    "E:\\WorkSpace\\ASP.Net_Entity\\ASPNetCoreApp\\ASPNetCoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DESKTOP\\Workspace\\ASP.Net_Entity\\ASPNetCoreApp\\ASPNetCoreApp.csproj",
+        "projectUniqueName": "E:\\WorkSpace\\ASP.Net_Entity\\ASPNetCoreApp\\ASPNetCoreApp.csproj",
         "projectName": "ASPNetCoreApp",
-        "projectPath": "D:\\DESKTOP\\Workspace\\ASP.Net_Entity\\ASPNetCoreApp\\ASPNetCoreApp.csproj",
-        "packagesPath": "C:\\Users\\Luu Thuong\\.nuget\\packages\\",
-        "outputPath": "D:\\DESKTOP\\Workspace\\ASP.Net_Entity\\ASPNetCoreApp\\obj\\",
+        "projectPath": "E:\\WorkSpace\\ASP.Net_Entity\\ASPNetCoreApp\\ASPNetCoreApp.csproj",
+        "packagesPath": "C:\\Users\\thuong.nguyen\\.nuget\\packages\\",
+        "outputPath": "E:\\WorkSpace\\ASP.Net_Entity\\ASPNetCoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Luu Thuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thuong.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,6 +47,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[6.0.5, )"
             },
