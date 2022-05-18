@@ -1,32 +1,73 @@
-
+using CS_Entity.Model;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace CS_Entity{
+namespace CS_Entity.Context{
     public class MyDBContext:DbContext{
-        protected string connectionString=@"Data Source=.;Initial Catalog=MyDatabase;Trusted_Connection=true";
-        public DbSet<Product> Products {get;set;}
-        protected override void OnConfiguring(DbContextOptionsBuilder option){
-            ILoggerFactory loggerFac=LoggerFactory.Create((ILoggingBuilder buider)=>buider.AddConsole());
-            option.UseSqlServer(connectionString);
+        private readonly string _connectionString;
+        public MyDBContext(string connectionString){
+            this._connectionString=connectionString;
         }
-
+        DbSet<Product> products{get;set;}
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
+            ILoggerFactory iLoggerFactory=LoggerFactory.Create(loggingBuilder=>loggingBuilder.AddConsole());
+            optionsBuilder.UseSqlServer(this._connectionString).UseLazyLoadingProxies().UseLoggerFactory(iLoggerFactory);
+        }
         public async Task CreateDatabase(){
-            string database= Database.GetDbConnection().Database;
-            Console.WriteLine($"Create Database: {database}");
+            string databaseName=Database.GetDbConnection().Database;
             bool result=await Database.EnsureCreatedAsync();
-            string resultString= result?"Create Success":"Database is Exist!";
+            string resultString=result?"Database Created":"Database exist..";
             Console.WriteLine(resultString);
+            Console.WriteLine($"{databaseName} -- {resultString}");
         }
         public async Task DeleteDatabase(){
-            string database= Database.GetDbConnection().Database;
-            Console.WriteLine($"Are you Sure\n Delete Database: {database}");
-            string input =Console.ReadLine();
-            if(input.ToLower()=="y"){
-                bool deleted=await Database.EnsureDeletedAsync();
-                string resultDeleted=deleted?"Deleted !":"Can't Delete";
-            }
+            string databaseName=Database.GetDbConnection().Database;
+            bool result = await Database.EnsureDeletedAsync();
+            string resultString=result?"Database Deleted":"Can not Deleted";
+            Console.WriteLine(resultString);
+        }
+        public async Task AddData(){
+            var cate1= new Category(){
+                    ID=Guid.NewGuid(),
+                    Name="Cate1"
+                };
+            var cate2= new Category(){
+                    ID=Guid.NewGuid(),
+                    Name="Cate2"
+                };
+            await AddRangeAsync(cate1,cate2);
+            await SaveChangesAsync();
 
+            await AddRangeAsync(
+                new Product(){
+                    ID=Guid.NewGuid(),
+                    Name="Product 1",
+                    CreateAt=DateTime.Now,
+                    category2=cate1,
+                    category1=cate2
+                },
+                new Product(){
+                    ID=Guid.NewGuid(),
+                    Name="Product 2",
+                    CreateAt=DateTime.Now,
+                    category1=cate2,
+                    category2=cate1
+                },
+                new Product(){
+                    ID=Guid.NewGuid(),
+                    Name="Product 3",
+                    CreateAt=DateTime.Now,
+                    category1=cate1,
+                    category2=cate2
+                }
+            );
+            await SaveChangesAsync();
+        }
+        public async Task<Product> FindProduct(string ID){
+            var p= await( from product in products where product.ID.ToString()==ID select product).FirstOrDefaultAsync();
+            await Entry(p).Reference(x=>x.category1).LoadAsync();
+            return p;
         }
     }
+    
 }
