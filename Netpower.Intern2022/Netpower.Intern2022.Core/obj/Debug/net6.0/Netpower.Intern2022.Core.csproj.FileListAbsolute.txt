@@ -1,0 +1,12 @@
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Core\bin\Debug\net6.0\Netpower.Intern2022.Core.deps.json
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Core\bin\Debug\net6.0\Netpower.Intern2022.Core.dll
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Core\bin\Debug\net6.0\Netpower.Intern2022.Core.pdb
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Core\obj\Debug\net6.0\Netpower.Intern2022.Core.csproj.AssemblyReference.cache
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Core\obj\Debug\net6.0\Netpower.Intern2022.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Core\obj\Debug\net6.0\Netpower.Intern2022.Core.AssemblyInfoInputs.cache
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Core\obj\Debug\net6.0\Netpower.Intern2022.Core.AssemblyInfo.cs
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Core\obj\Debug\net6.0\Netpower.Intern2022.Core.csproj.CoreCompileInputs.cache
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Core\obj\Debug\net6.0\Netpower.Intern2022.Core.dll
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Core\obj\Debug\net6.0\refint\Netpower.Intern2022.Core.dll
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Core\obj\Debug\net6.0\Netpower.Intern2022.Core.pdb
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Core\obj\Debug\net6.0\ref\Netpower.Intern2022.Core.dll

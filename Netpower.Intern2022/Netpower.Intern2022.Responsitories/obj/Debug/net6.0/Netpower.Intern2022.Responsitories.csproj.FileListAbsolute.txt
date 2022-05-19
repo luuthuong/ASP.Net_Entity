@@ -1,0 +1,17 @@
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\bin\Debug\net6.0\Netpower.Intern2022.Responsitories.deps.json
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\bin\Debug\net6.0\Netpower.Intern2022.Responsitories.runtimeconfig.json
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\bin\Debug\net6.0\Netpower.Intern2022.Responsitories.dll
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\bin\Debug\net6.0\Netpower.Intern2022.Responsitories.pdb
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\obj\Debug\net6.0\Netpower.Intern2022.Responsitories.csproj.AssemblyReference.cache
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\obj\Debug\net6.0\Netpower.Intern2022.Responsitories.GeneratedMSBuildEditorConfig.editorconfig
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\obj\Debug\net6.0\Netpower.Intern2022.Responsitories.AssemblyInfoInputs.cache
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\obj\Debug\net6.0\Netpower.Intern2022.Responsitories.AssemblyInfo.cs
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\obj\Debug\net6.0\Netpower.Intern2022.Responsitories.csproj.CoreCompileInputs.cache
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\obj\Debug\net6.0\Netpower.Intern2022.Responsitories.dll
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\obj\Debug\net6.0\refint\Netpower.Intern2022.Responsitories.dll
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\obj\Debug\net6.0\Netpower.Intern2022.Responsitories.pdb
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\obj\Debug\net6.0\Netpower.Intern2022.Responsitories.genruntimeconfig.cache
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\obj\Debug\net6.0\ref\Netpower.Intern2022.Responsitories.dll
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\bin\Debug\net6.0\Netpower.Intern2022.Entities.dll
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\bin\Debug\net6.0\Netpower.Intern2022.Entities.pdb
+D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.Responsitories\obj\Debug\net6.0\Netpower.Intern2022.Responsitories.csproj.CopyComplete
