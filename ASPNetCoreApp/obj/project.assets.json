@@ -7325,19 +7325,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thuong.nguyen\\.nuget\\packages\\": {}
+    "C:\\Users\\Luu Thuong\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WorkSpace\\ASP.Net_Entity\\ASPNetCoreApp\\ASPNetCoreApp.csproj",
+      "projectUniqueName": "D:\\DESKTOP\\Workspace\\ASP.Net_Entity\\ASPNetCoreApp\\ASPNetCoreApp.csproj",
       "projectName": "ASPNetCoreApp",
-      "projectPath": "E:\\WorkSpace\\ASP.Net_Entity\\ASPNetCoreApp\\ASPNetCoreApp.csproj",
-      "packagesPath": "C:\\Users\\thuong.nguyen\\.nuget\\packages\\",
-      "outputPath": "E:\\WorkSpace\\ASP.Net_Entity\\ASPNetCoreApp\\obj\\",
+      "projectPath": "D:\\DESKTOP\\Workspace\\ASP.Net_Entity\\ASPNetCoreApp\\ASPNetCoreApp.csproj",
+      "packagesPath": "C:\\Users\\Luu Thuong\\.nuget\\packages\\",
+      "outputPath": "D:\\DESKTOP\\Workspace\\ASP.Net_Entity\\ASPNetCoreApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\thuong.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Luu Thuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

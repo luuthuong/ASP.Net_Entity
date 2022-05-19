@@ -44,7 +44,7 @@ namespace CS_Entity.Context{
                     Name="Product 1",
                     CreateAt=DateTime.Now,
                     category2=cate1,
-                    category1=cate2
+                    category1=cate2,
                 },
                 new Product(){
                     ID=Guid.NewGuid(),
@@ -65,7 +65,10 @@ namespace CS_Entity.Context{
         }
         public async Task<Product> FindProduct(string ID){
             var p= await( from product in products where product.ID.ToString()==ID select product).FirstOrDefaultAsync();
-            await Entry(p).Reference(x=>x.category1).LoadAsync();
+
+            await Entry(p)
+            .Reference(x=>x.category1)
+            .LoadAsync();
             return p;
         }
     }

@@ -138,3 +138,5 @@ E:\WorkSpace\ASP.Net_Entity\ASPNetCoreApp\obj\Debug\net6.0\ASPNetCoreApp.genrunt
 E:\WorkSpace\ASP.Net_Entity\ASPNetCoreApp\obj\Debug\net6.0\ref\ASPNetCoreApp.dll
 E:\WorkSpace\ASP.Net_Entity\ASPNetCoreApp\bin\Debug\net6.0\Castle.Core.dll
 E:\WorkSpace\ASP.Net_Entity\ASPNetCoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\DESKTOP\Workspace\ASP.Net_Entity\ASPNetCoreApp\bin\Debug\net6.0\Castle.Core.dll
+D:\DESKTOP\Workspace\ASP.Net_Entity\ASPNetCoreApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll

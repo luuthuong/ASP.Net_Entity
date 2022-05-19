@@ -9,12 +9,12 @@ namespace CS_Entity{
             await context.DeleteDatabase();
             await context.CreateDatabase();
             await context.AddData();
-            // var prd=await context.FindProduct("cc742d9a-4802-4515-af74-13462070fcfe");
-            // var cate=prd.category;
-            // if(prd!=null){
-            //     string cateName=cate!=null?cate.Name:"cate is Null";
-            //     Console.WriteLine(cateName);
-            // }
+            var prd=await context.FindProduct("cc742d9a-4802-4515-af74-13462070fcfe");
+            var cate=prd.category1;
+            if(prd!=null){
+                string cateName=cate!=null?cate.Name:"cate is Null";
+                Console.WriteLine(cateName);
+            }
         }
     }
 }
