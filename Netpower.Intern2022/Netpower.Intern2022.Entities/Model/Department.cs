@@ -11,9 +11,10 @@ namespace Netpower.Intern2022.Entities.Model
     {
         public string Name { get; set; }
     }
-    [Table("DEPARTMENT")]
+    [Table("TB_DEPARTMENT")]
     public class DepartmentModel:Department
     {
         public Guid ID { get; set; }
+        public List<PositionModel> PositionModels { get; set; }
     }
 }

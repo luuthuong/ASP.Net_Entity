@@ -10,3 +10,15 @@ D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.DTO\obj\Debug\net6.
 D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.DTO\obj\Debug\net6.0\refint\Netpower.Intern2022.DTO.dll
 D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.DTO\obj\Debug\net6.0\Netpower.Intern2022.DTO.pdb
 D:\DESKTOP\Workspace\Netpower.Intern2022\Netpower.Intern2022.DTO\obj\Debug\net6.0\ref\Netpower.Intern2022.DTO.dll
+E:\WorkSpace\ASP.Net_Entity\Netpower.Intern2022\Netpower.Intern2022.DTO\bin\Debug\net6.0\Netpower.Intern2022.DTO.deps.json
+E:\WorkSpace\ASP.Net_Entity\Netpower.Intern2022\Netpower.Intern2022.DTO\bin\Debug\net6.0\Netpower.Intern2022.DTO.dll
+E:\WorkSpace\ASP.Net_Entity\Netpower.Intern2022\Netpower.Intern2022.DTO\bin\Debug\net6.0\Netpower.Intern2022.DTO.pdb
+E:\WorkSpace\ASP.Net_Entity\Netpower.Intern2022\Netpower.Intern2022.DTO\obj\Debug\net6.0\Netpower.Intern2022.DTO.csproj.AssemblyReference.cache
+E:\WorkSpace\ASP.Net_Entity\Netpower.Intern2022\Netpower.Intern2022.DTO\obj\Debug\net6.0\Netpower.Intern2022.DTO.GeneratedMSBuildEditorConfig.editorconfig
+E:\WorkSpace\ASP.Net_Entity\Netpower.Intern2022\Netpower.Intern2022.DTO\obj\Debug\net6.0\Netpower.Intern2022.DTO.AssemblyInfoInputs.cache
+E:\WorkSpace\ASP.Net_Entity\Netpower.Intern2022\Netpower.Intern2022.DTO\obj\Debug\net6.0\Netpower.Intern2022.DTO.AssemblyInfo.cs
+E:\WorkSpace\ASP.Net_Entity\Netpower.Intern2022\Netpower.Intern2022.DTO\obj\Debug\net6.0\Netpower.Intern2022.DTO.csproj.CoreCompileInputs.cache
+E:\WorkSpace\ASP.Net_Entity\Netpower.Intern2022\Netpower.Intern2022.DTO\obj\Debug\net6.0\Netpower.Intern2022.DTO.dll
+E:\WorkSpace\ASP.Net_Entity\Netpower.Intern2022\Netpower.Intern2022.DTO\obj\Debug\net6.0\refint\Netpower.Intern2022.DTO.dll
+E:\WorkSpace\ASP.Net_Entity\Netpower.Intern2022\Netpower.Intern2022.DTO\obj\Debug\net6.0\Netpower.Intern2022.DTO.pdb
+E:\WorkSpace\ASP.Net_Entity\Netpower.Intern2022\Netpower.Intern2022.DTO\obj\Debug\net6.0\ref\Netpower.Intern2022.DTO.dll

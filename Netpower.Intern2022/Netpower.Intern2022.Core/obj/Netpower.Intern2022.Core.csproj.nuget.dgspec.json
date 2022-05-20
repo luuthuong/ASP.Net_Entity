@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Core\\Netpower.Intern2022.Core.csproj": {}
+    "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Core\\Netpower.Intern2022.Core.csproj": {}
   },
   "projects": {
-    "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Core\\Netpower.Intern2022.Core.csproj": {
+    "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Core\\Netpower.Intern2022.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Core\\Netpower.Intern2022.Core.csproj",
+        "projectUniqueName": "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Core\\Netpower.Intern2022.Core.csproj",
         "projectName": "Netpower.Intern2022.Core",
-        "projectPath": "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Core\\Netpower.Intern2022.Core.csproj",
-        "packagesPath": "C:\\Users\\Luu Thuong\\.nuget\\packages\\",
-        "outputPath": "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Core\\obj\\",
+        "projectPath": "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Core\\Netpower.Intern2022.Core.csproj",
+        "packagesPath": "C:\\Users\\thuong.nguyen\\.nuget\\packages\\",
+        "outputPath": "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Luu Thuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thuong.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

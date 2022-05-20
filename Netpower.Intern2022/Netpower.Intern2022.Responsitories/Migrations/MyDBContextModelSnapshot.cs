@@ -22,6 +22,68 @@ namespace Netpower.Intern2022.Responsitories.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("Netpower.Intern2022.Entities.Model.DepartmentModel", b =>
+                {
+                    b.Property<Guid>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("ID");
+
+                    b.HasAlternateKey("Name");
+
+                    b.ToTable("TB_DEPARTMENT");
+                });
+
+            modelBuilder.Entity("Netpower.Intern2022.Entities.Model.PositionModel", b =>
+                {
+                    b.Property<Guid>("ID_Position")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("FK_Department")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("ID_Position");
+
+                    b.HasAlternateKey("Name");
+
+                    b.HasIndex("FK_Department");
+
+                    b.ToTable("TB_POSITION");
+                });
+
+            modelBuilder.Entity("Netpower.Intern2022.Entities.Model.ProfileModel", b =>
+                {
+                    b.Property<Guid>("FK_User")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Age")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("FK_Role")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("FK_User");
+
+                    b.HasIndex("FK_Role");
+
+                    b.ToTable("TB_PROFILE");
+                });
+
             modelBuilder.Entity("Netpower.Intern2022.Entities.Model.UserModel", b =>
                 {
                     b.Property<Guid>("ID")
@@ -30,6 +92,13 @@ namespace Netpower.Intern2022.Responsitories.Migrations
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime");
+
+                    b.Property<Guid>("FK_profile")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Mail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Password")
                         .IsRequired()
@@ -42,7 +111,57 @@ namespace Netpower.Intern2022.Responsitories.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("dB_User");
+                    b.HasAlternateKey("Mail");
+
+                    b.HasAlternateKey("UserName");
+
+                    b.ToTable("TB_USER");
+                });
+
+            modelBuilder.Entity("Netpower.Intern2022.Entities.Model.PositionModel", b =>
+                {
+                    b.HasOne("Netpower.Intern2022.Entities.Model.DepartmentModel", "position_Department")
+                        .WithMany("PositionModels")
+                        .HasForeignKey("FK_Department")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("position_Department");
+                });
+
+            modelBuilder.Entity("Netpower.Intern2022.Entities.Model.ProfileModel", b =>
+                {
+                    b.HasOne("Netpower.Intern2022.Entities.Model.PositionModel", "prf_Role")
+                        .WithMany("profiles")
+                        .HasForeignKey("FK_Role")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Netpower.Intern2022.Entities.Model.UserModel", "profile_user")
+                        .WithOne("user_profile")
+                        .HasForeignKey("Netpower.Intern2022.Entities.Model.ProfileModel", "FK_User")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("prf_Role");
+
+                    b.Navigation("profile_user");
+                });
+
+            modelBuilder.Entity("Netpower.Intern2022.Entities.Model.DepartmentModel", b =>
+                {
+                    b.Navigation("PositionModels");
+                });
+
+            modelBuilder.Entity("Netpower.Intern2022.Entities.Model.PositionModel", b =>
+                {
+                    b.Navigation("profiles");
+                });
+
+            modelBuilder.Entity("Netpower.Intern2022.Entities.Model.UserModel", b =>
+                {
+                    b.Navigation("user_profile")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Responsitories\\Netpower.Intern2022.Responsitories.csproj": {}
+    "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Responsitories\\Netpower.Intern2022.Responsitories.csproj": {}
   },
   "projects": {
-    "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Entities\\Netpower.Intern2022.Entities.csproj": {
+    "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Entities\\Netpower.Intern2022.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Entities\\Netpower.Intern2022.Entities.csproj",
+        "projectUniqueName": "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Entities\\Netpower.Intern2022.Entities.csproj",
         "projectName": "Netpower.Intern2022.Entities",
-        "projectPath": "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Entities\\Netpower.Intern2022.Entities.csproj",
-        "packagesPath": "C:\\Users\\Luu Thuong\\.nuget\\packages\\",
-        "outputPath": "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Entities\\obj\\",
+        "projectPath": "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Entities\\Netpower.Intern2022.Entities.csproj",
+        "packagesPath": "C:\\Users\\thuong.nguyen\\.nuget\\packages\\",
+        "outputPath": "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Luu Thuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thuong.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Responsitories\\Netpower.Intern2022.Responsitories.csproj": {
+    "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Responsitories\\Netpower.Intern2022.Responsitories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Responsitories\\Netpower.Intern2022.Responsitories.csproj",
+        "projectUniqueName": "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Responsitories\\Netpower.Intern2022.Responsitories.csproj",
         "projectName": "Netpower.Intern2022.Responsitories",
-        "projectPath": "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Responsitories\\Netpower.Intern2022.Responsitories.csproj",
-        "packagesPath": "C:\\Users\\Luu Thuong\\.nuget\\packages\\",
-        "outputPath": "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Responsitories\\obj\\",
+        "projectPath": "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Responsitories\\Netpower.Intern2022.Responsitories.csproj",
+        "packagesPath": "C:\\Users\\thuong.nguyen\\.nuget\\packages\\",
+        "outputPath": "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Responsitories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Luu Thuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thuong.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Entities\\Netpower.Intern2022.Entities.csproj": {
-                "projectPath": "D:\\DESKTOP\\Workspace\\Netpower.Intern2022\\Netpower.Intern2022.Entities\\Netpower.Intern2022.Entities.csproj"
+              "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Entities\\Netpower.Intern2022.Entities.csproj": {
+                "projectPath": "E:\\WorkSpace\\ASP.Net_Entity\\Netpower.Intern2022\\Netpower.Intern2022.Entities\\Netpower.Intern2022.Entities.csproj"
               }
             }
           }
@@ -138,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
