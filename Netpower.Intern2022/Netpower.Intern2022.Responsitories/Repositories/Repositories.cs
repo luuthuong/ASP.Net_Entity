@@ -32,7 +32,7 @@ namespace Netpower.Intern2022.Responsitories.Repositories
         }
         public async Task UpdateData(T data)
         {
-            _items.UpdateRange(data);
+            _items.Update(data);
             await _context.SaveChangesAsync();
         }
         public async Task DeleteData(T data)
